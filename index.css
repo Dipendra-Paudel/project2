@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.main-header a{
+    color:white;
+    flex:1;
+}
+.main-header{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    height:30px;
+    line-height:30px;
+    font-size:20px;
+    background-color:black;
+}
+.main-header a:hover{
+    background-color:gray;
+}
+.login-and-signup{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+.btn{
+    width:100px;
+    height:30px;
+    margin:10px;
+    border:none;
+    border-radius:4px;
+    box-shadow:0 5px gray;
+}
+.login{
+    background-color:skyblue;
+    color:white;
+}
+.signup{
+    background-color:green;
+    color:black;
+}
+h1{
+    text-align:center;
+    margin-top:10px;
+}
+.image{
+    display:flex;
+    justify-content:center;
+}
+.image img{
+    width:500px;
+    height:200px;
+}
+p{
+    text-align:center;
+}
+.second{
+    font-size:25px;
+    font-weight:bolder;
+}
+.image-container{
+    display:flex;
+    justify-content:center;
+}
